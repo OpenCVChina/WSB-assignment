@@ -1,5 +1,5 @@
-# Assignment for WSB2022
+# Assignment for WSB
 
-For online participants, you can try with default backend and CPU target in case you do not have Khadas VIM3. In this case, you can install opencv-python using pip: `pip install opencv-python==4.5.4.58`.
+This repo is for the assignment of the hands-on session of the Winter School on Biometrics (https://www.comp.hkbu.edu.hk/wsb2024/index.php). Before starting, make sure OpenCV is installed. If not, you can install OpenCV-Python using pip: `pip install opencv-python` or `pip install opencv-contrib-python` with extra features.
 
-If you want to try TIM-VX backend and NPU target, you will need to compile OpenCV (https://github.com/fengyuentau/opencv/tree/timvx_backend_support) from source with Python Interface following this guide (https://gist.github.com/zihaomu/f040be4901d92e423f227c10dfa37650).
+If you want to run models with TIM-VX backend and NPU target on Khadas VIM3, you will need to compile OpenCV from source with Python Interface following this guide (https://github.com/opencv/opencv/wiki/TIM-VX-Backend-For-Running-OpenCV-On-NPU).
